@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Animated, Image, StyleSheet, Text, View } from "react-native";
-import DementionUtils from "../../../../tugboat-mobile/src/common/utils/DementionUtils";
+import DementionUtils from "../../common/utils/DementionUtils";
 
 const ProgressBar = ({ text = "" }) => {
     const [progress, setProgress] = useState(0);
@@ -22,7 +22,7 @@ const ProgressBar = ({ text = "" }) => {
     return (
         <View style={styles.container}>
             <Image
-                source={require('../../../../tugboat-mobile/assets/gif/tugboat_splash_d_small.gif')}
+                source={require('../../assets/gif/tugboat_splash_d_small.gif')}
             />
             <Text style={styles.loadingBarTxt}>{text}</Text>
         </View>

@@ -69,7 +69,7 @@ import { Image } from 'react-native';
 import StudyPlanService from '../../services/study/StudyPlanService';
 import AuthenticationManager from '../../modules/auth/AuthenticationManager';
 import { StudyPlanType } from '../../types/StudyPlanType';
-import DementionUtils from '../../../../tugboat-mobile/src/common/utils/DementionUtils';
+import DementionUtils from '../../common/utils/DementionUtils'
 
 const ProgressBar = lazy(() => import('../../modules/progressbar/ProgressBar'));
 

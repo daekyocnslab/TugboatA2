@@ -1,5 +1,5 @@
-import DementionUtils from "../../common/utils/DementionUtils"
-import DeviceInfoUtil from "../../common/utils/DeviceInfoUtil"
+import DementionUtils from "../../../common/utils/DementionUtils"
+import DeviceInfoUtil from "../../../common/utils/DeviceInfoUtil"
 import { Platform, StyleSheet } from "react-native"
 
 const { heightRelateSize, widthRelateSize, fontRelateSize, marginRelateSize } = DementionUtils

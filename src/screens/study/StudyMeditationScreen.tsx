@@ -15,9 +15,9 @@ import {
 	Pressable,
 } from 'react-native';
 import { useIsFocused } from '@react-navigation/native';
-import { fontRelateSize } from '../../../../tugboat-mobile/src/common/utils/DementionUtils';
 
-const { heightRelateSize } = DementionUtils;
+const  { fontRelateSize, heightRelateSize, widthRelateSize } = DementionUtils;
+
 
 const StudyMeditationScreen = ({ navigation, route }) => {
 	const doSq = route?.params?.doSq;

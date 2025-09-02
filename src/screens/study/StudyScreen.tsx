@@ -45,7 +45,8 @@ import { Paths } from "@/navigation/conf/Paths";
 import ToastScreen from "../common/ToastScreen";
 import PoseModules from "../modules/PoseModules";
 import { PoseTypes } from "@/types/pose/PoseTypes";
-import { fontRelateSize, heightRelateSize, widthRelateSize } from "../../../../tugboat-mobile/src/common/utils/DementionUtils";
+import DementionUtils  from '../../common/utils/DementionUtils'
+const  { fontRelateSize, heightRelateSize, widthRelateSize } = DementionUtils;
 import { SafeAreaView } from "react-native-safe-area-context";
 
 // 상수 관리

@@ -25,7 +25,9 @@ import { setUserData } from '../../modules/redux/slice/UserSlice';
 import { GroupType } from '../../types/GroupType';
 import NetInfo, { fetch, NetInfoSubscription, useNetInfo } from '@react-native-community/netinfo';
 import StudyPlanService from '@/services/study/StudyPlanService';
-import { fontRelateSize, heightRelateSize, widthRelateSize } from '../../../../tugboat-mobile/src/common/utils/DementionUtils';
+import DementionUtils from '../../common/utils/DementionUtils';
+
+	const {fontRelateSize} = DementionUtils;
 
 const AttendanceScreen = ({ navigation }) => {
 	const { isConnected } = useNetInfo();

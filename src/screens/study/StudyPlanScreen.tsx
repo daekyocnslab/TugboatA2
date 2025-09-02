@@ -15,7 +15,7 @@ import TbStdyDoDtlModules from '../../modules/sqlite/TbStdyDoDtlModules';
 import StudyService from '../../services/study/StudyService';
 import { AxiosResponse } from 'axios';
 import { CommonType } from '../../types/common/CommonType';
-import { fontRelateSize, heightRelateSize, widthRelateSize } from '../../../../tugboat-mobile/src/common/utils/DementionUtils';
+const  { fontRelateSize, heightRelateSize, widthRelateSize } = DementionUtils;
 
 const studyMessages = [
 	'하루하루 성장 프로젝트',

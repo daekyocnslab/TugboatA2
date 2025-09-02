@@ -1,6 +1,7 @@
 import React from 'react';
 import { Image, Modal, Pressable, Text, View } from 'react-native';
-import DementionUtils from 'common/utils/DementionUtils';
+import DementionUtils  from '../../common/utils/DementionUtils'
+
 
 const PowerSaveModeModal = ({ onPress }: { onPress: () => void }) => {
 	return (
