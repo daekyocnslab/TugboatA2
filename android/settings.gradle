@@ -14,7 +14,7 @@ extensions.configure(com.facebook.react.ReactSettingsExtension){ ex ->
   ].toList()
   ex.autolinkLibrariesFromCommand(command)
 }
-rootProject.name = "“TugboatA2"
+rootProject.name = "터그보트A2"
 include ':app'
 includeBuild('../node_modules/@react-native/gradle-plugin')
 

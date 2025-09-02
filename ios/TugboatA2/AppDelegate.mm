@@ -3,7 +3,6 @@
 #import <React/RCTBundleURLProvider.h>
 #import <ExpoModulesCore-Swift.h>
 #import <Expo-Swift.h>
-#import "tugboatA-Swift.h"
 
 
 // Firebase 헤더 추가
