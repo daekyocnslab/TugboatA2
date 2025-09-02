@@ -1,4 +1,4 @@
-package com.tugboata
+package com.daekyocnslab.tugboata2
 
 import android.app.Application
 import android.content.res.Configuration
@@ -14,7 +14,7 @@ import expo.modules.ReactNativeHostWrapper
 // ✅ 플러그인 등록 import
 import com.mrousavy.camera.frameprocessors.FrameProcessorPluginRegistry
 
-import com.tugboata.VisionCameraFrameProcessorPlugin  // ← 정확한 클래스명으로 수정
+import com.daekyocnslab.tugboata2.VisionCameraFrameProcessorPlugin  // ← 정확한 클래스명으로 수정
 
 
 class MainApplication : Application(), ReactApplication {

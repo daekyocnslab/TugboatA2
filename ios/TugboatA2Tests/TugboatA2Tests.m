@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface tugboatATests : XCTestCase
+@interface TugboatA2Tests : XCTestCase
 
 @end
 
-@implementation tugboatATests
+@implementation TugboatA2Tests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

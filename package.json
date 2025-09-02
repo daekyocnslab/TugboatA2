@@ -1,11 +1,11 @@
 {
-	"name": "tugboata",
+	"name": "tugboata2",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
 		"start": "npx react-native start --reset-cache",
 		"start:8082": "npx react-native start --reset-cache --port 8082",
-		"uninstall": "adb uninstall com.tugboata",
+		"uninstall": "adb uninstall com.““tugboata22",
 		"an": "npx react-native run-android --terminal APP_ENV=local",
 		"an:who": "adb devices",
 		"an:emu": "emulator -avd Pixel_9_Pro_API_35 && npx react-native run-android --port 8082",

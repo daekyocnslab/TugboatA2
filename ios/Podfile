@@ -31,7 +31,7 @@ setup_permissions([
 
 use_frameworks! :linkage => :static
 
-target 'tugboatA' do
+target 'TugboatA2' do
   use_expo_modules!
 
   if ENV['EXPO_USE_COMMUNITY_AUTOLINKING'] == '1'
@@ -57,7 +57,7 @@ target 'tugboatA' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'tugboatATests' do
+  target 'TugboatA2Tests' do
     inherit! :complete
     # Pods for testing
   end

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "tugboatA.app"
-               BlueprintName = "tugboatA"
-               ReferencedContainer = "container:tugboatA.xcodeproj">
+               BuildableName = "TugboatA2.app"
+               BlueprintName = "TugboatA2"
+               ReferencedContainer = "container:TugboatA2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "tugboatATests.xctest"
-               BlueprintName = "tugboatATests"
-               ReferencedContainer = "container:tugboatA.xcodeproj">
+               BuildableName = "TugboatA2Tests.xctest"
+               BlueprintName = "TugboatA2Tests"
+               ReferencedContainer = "container:TugboatA2.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "tugboatA.app"
-            BlueprintName = "tugboatA"
-            ReferencedContainer = "container:tugboatA.xcodeproj">
+            BuildableName = "TugboatA2.app"
+            BlueprintName = "TugboatA2"
+            ReferencedContainer = "container:TugboatA2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "tugboatA.app"
-            BlueprintName = "tugboatA"
-            ReferencedContainer = "container:tugboatA.xcodeproj">
+            BuildableName = "TugboatA2.app"
+            BlueprintName = "TugboatA2"
+            ReferencedContainer = "container:TugboatA2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

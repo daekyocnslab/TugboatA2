@@ -89,9 +89,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.tugboata"
+    namespace "com.daekyocnslab.tugboata2"
     defaultConfig {
-        applicationId "com.tugboata"
+        applicationId "com.daekyocnslab.tugboata2"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
