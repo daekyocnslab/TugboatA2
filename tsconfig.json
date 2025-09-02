@@ -1,0 +1,38 @@
+{
+	"extends": "@react-native/typescript-config/tsconfig.json",
+	"compilerOptions": {
+		"types": ["jest", "node"],
+		"paths": {
+			"@/*": ["./src/*"]
+		},
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"jsx": "react-native",
+		"lib": ["es2017", "es2018", "dom"],
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"noEmit": true,
+		"noImplicitAny": false,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": true,
+		"target": "es2017"
+	},
+	"include": [
+		"__mocks__/**/*",
+		"./src/**/*",
+		"index.d.ts",
+		"env.d.ts",
+		".eslint.config.js",
+		"jest.setup.js",
+		"jest.config.js",
+		"babel.config.js",
+		"index.js",
+		"react-native.config.js",
+		"jest.setup.ts"
+	],
+	"exclude": ["node_modules", "**/*.test.tsx", "**/*.spec.ts", "_", "android", "ios"]
+}
